@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 26" tests="1" total_time="Finished in: 6.17 secs."/>
+<test location="/Users/apple/Documents/workspace/django_program/superlists/functional_tests.py" status="error" test="NewVisitorTest.test_can_start_a_list_and_retrieve_it_later" time="">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/apple/Documents/workspace/django_program/superlists/functional_tests.py", line 39, in test_can_start_a_list_and_retrieve_it_later
+    rows = table.find_element_by_tag_name('tr')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 229, in find_element_by_tag_name
+    return self.find_element(by=By.TAG_NAME, value=name)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 511, in find_element
+    {"using": by, "value": value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 494, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: tr
+
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="django_program functional_tests.py (1)"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

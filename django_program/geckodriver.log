@@ -1,0 +1,43 @@
+1483867319857	geckodriver	INFO	Listening on 127.0.0.1:49913
+1483867320859	mozprofile::profile	INFO	Using profile path /var/folders/5y/n_bkmmwj54x4x_8cl03tpdq40000gn/T/rust_mozprofile.7BaHC2q4HTVZ
+1483867320860	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1483867320893	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49922
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1483867321452	Marionette	INFO	Listening on port 49922
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1483867409739	geckodriver	INFO	Listening on 127.0.0.1:49966
+1483867410749	mozprofile::profile	INFO	Using profile path /var/folders/5y/n_bkmmwj54x4x_8cl03tpdq40000gn/T/rust_mozprofile.he4zysguPhbo
+1483867410751	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1483867410753	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49975
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1483867411203	Marionette	INFO	Listening on port 49975
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1483870301042	geckodriver	INFO	Listening on 127.0.0.1:51183
+1483870302049	mozprofile::profile	INFO	Using profile path /var/folders/5y/n_bkmmwj54x4x_8cl03tpdq40000gn/T/rust_mozprofile.vxqZa5FhmLpy
+1483870302050	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1483870302053	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51192
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1483870302570	Marionette	INFO	Listening on port 51192
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1483870339034	geckodriver	INFO	Listening on 127.0.0.1:51232
+1483870340040	mozprofile::profile	INFO	Using profile path /var/folders/5y/n_bkmmwj54x4x_8cl03tpdq40000gn/T/rust_mozprofile.bjhCEethIdIm
+1483870340041	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1483870340044	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51241
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1483870340506	Marionette	INFO	Listening on port 51241
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 24" tests="1" total_time="Finished in: 6.17 secs."/>
+<test location="/Users/apple/Documents/workspace/django_program/superlists/functional_tests.py" status="error" test="NewVisitorTest.test_can_start_a_list_and_retrieve_it_later" time="">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/apple/Documents/workspace/django_program/superlists/functional_tests.py", line 38, in test_can_start_a_list_and_retrieve_it_later
+    table = self.browser.find_element_by_id('id_list_table')
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 269, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="id_list_table"]
+
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="django_program functional_tests.py (1)"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

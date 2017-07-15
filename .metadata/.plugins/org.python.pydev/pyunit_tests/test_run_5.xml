@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="0" failures="1" finished="true" name="Test Run: 27" tests="1" total_time="Finished in: 6.19 secs."/>
+<test location="/Users/apple/Documents/workspace/django_program/superlists/functional_tests.py" status="fail" test="NewVisitorTest.test_can_start_a_list_and_retrieve_it_later" time="">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/apple/Documents/workspace/django_program/superlists/functional_tests.py", line 40, in test_can_start_a_list_and_retrieve_it_later
+    self.assertTrue(any(row.text == '1:Buy peacock feathers' for row in rows))
+AssertionError: False is not true
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="django_program functional_tests.py (1)"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

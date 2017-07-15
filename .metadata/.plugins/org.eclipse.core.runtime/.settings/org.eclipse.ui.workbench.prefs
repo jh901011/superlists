@@ -1,0 +1,8 @@
+//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+//org.eclipse.ui.commands/state/org.eclipse.wst.xml.views.XPathView.processor.xpathprocessor/org.eclipse.ui.commands.radioState=xpath10
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc
+ColorsAndFontsPreferencePage.selectedElement=CCOUNTER_COLOR
+ENABLED_DECORATORS=org.eclipse.jdt.ui.override.decorator\:true,org.eclipse.jdt.ui.interface.decorator\:true,org.eclipse.jdt.ui.buildpath.decorator\:true,org.eclipse.pde.ui.binaryProjectDecorator\:false,org.eclipse.team.cvs.ui.decorator\:false,org.eclipse.ui.LinkedResourceDecorator\:true,org.eclipse.ui.SymlinkDecorator\:true,org.eclipse.ui.VirtualResourceDecorator\:true,org.eclipse.ui.ContentTypeDecorator\:true,org.eclipse.ui.ResourceFilterDecorator\:false,org.python.pydev.navigator.decorator.problemsLabelDecorator\:true,
+eclipse.preferences.version=1
+org.eclipse.jface.bannerfont=1|.SF NS Text|11.0|0|COCOA|1|.SFNSText;
+org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+F11"/>\n<keyBinding commandId\="org.eclipse.debug.ui.commands.RunLast" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+`"/>\n</org.eclipse.ui.commands>

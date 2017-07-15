@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pydev-testrun version="1.0"?><pydev-testsuite>
+<summary errors="1" failures="0" finished="true" name="Test Run: 33" tests="0" total_time="Finished in: 0.00 secs."/>
+<test location="/Users/apple/Documents/workspace/django_program/superlists/lists/tests.py" status="error" test="tests" time="0">
+<stdout/>
+<stderr><![CDATA[Traceback (most recent call last):
+  File "/Users/apple/.eclipse/org.eclipse.platform_4.6.0_1066081367_macosx_cocoa_x86_64/plugins/org.python.pydev_5.4.0.201611281236/pysrc/_pydev_runfiles/pydev_runfiles.py", line 468, in __get_module_from_str
+    mod = __import__(modname)
+  File "/Users/apple/Documents/workspace/django_program/superlists/lists/tests.py", line 17
+    print response.content.decode()
+                 ^
+SyntaxError: invalid syntax
+ERROR: Module: tests could not be imported (file: /Users/apple/Documents/workspace/django_program/superlists/lists/tests.py).
+]]></stderr>
+</test>
+<launch mode="run">
+<launch_memento><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration local="true" path="django_program tests.py (1)"/>
+]]></launch_memento>
+</launch>
+</pydev-testsuite>

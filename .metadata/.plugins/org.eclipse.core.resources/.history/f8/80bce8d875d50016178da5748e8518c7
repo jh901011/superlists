@@ -1,0 +1,7 @@
+#-*- coding:utf-8 -*-
+
+from selenium import webdriver
+browser = webdriver.Firefox(executable_path='Users/apple/Documents/workspace/drivers/Firefox_driver')
+browser.get('http://localhost:8000')
+assert 'Django' in browser.title
+ 

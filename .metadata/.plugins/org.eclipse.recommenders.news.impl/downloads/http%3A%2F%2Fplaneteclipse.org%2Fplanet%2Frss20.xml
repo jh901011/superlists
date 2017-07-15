@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+
+<channel>
+	<title>Planet Eclipse</title>
+	<link>http://planeteclipse.org/planet/</link>
+	<language>en</language>
+	<description>Planet Eclipse - http://planeteclipse.org/planet/</description>
+
+<item>
+	<title>Jeremie Bresson: Oxygen M4: convert to AsciiDoc with Mylyn WikiText</title>
+	<guid isPermaLink="true">http://jmini.github.io/blog/2016/2016-12-21_convert_to_asciidoc.html</guid>
+	<link>http://jmini.github.io/blog/2016/2016-12-21_convert_to_asciidoc.html</link>
+	<description>&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;If you need to convert your documentation to the AsciiDoc format, you might be interested in this new feature delivered with Eclipse Oxygen M4 (see also my previous blog post: &lt;a href=&quot;http://jmini.github.io/2016-10-28_from_mediawiki_to_asciidoc.html&quot;&gt;Asciidoctor instead of MediaWiki?&lt;/a&gt;). Any file format supported by Mylyn WikiText (textile, mediawiki, markdown and more) can now be converted to the AsciiDoc format. Just select &lt;span class=&quot;menuseq&quot;&gt;&lt;span class=&quot;menu&quot;&gt;WikiText&lt;/span&gt; ▸ &lt;span class=&quot;menuitem&quot;&gt;Generate AsciiDoc&lt;/span&gt;&lt;/span&gt; from the context menu in the package explorer.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;imageblock&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;img alt=&quot;Convert to AsciiDoc in Eclipse IDE&quot; src=&quot;http://jmini.github.io/blog/2016/2016-12-21_textile_example.png&quot; /&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;A new file is generated near to the original file (&lt;code&gt;example.asciidoc&lt;/code&gt; in this example). Of course you can preview it with your favorite asciidoctor viewer (Chrome with the &lt;a href=&quot;https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en&quot;&gt;Asciidoctor.js Live Preview&lt;/a&gt; extension in my case).&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;imageblock&quot;&gt; 
+ &lt;div class=&quot;content&quot;&gt; 
+  &lt;img alt=&quot;AsciiDoc file preview in Chrome&quot; src=&quot;http://jmini.github.io/blog/2016/2016-12-21_preview.png&quot; /&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;While I was trying to convert some pages of &lt;a href=&quot;http://wiki.eclipse.org/&quot;&gt;Eclipsepedia&lt;/a&gt; to Asciidoctor, I have noticed that some additional concepts need to be supported by the converter. I have opened &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=508262&quot;&gt;Bug 508262&lt;/a&gt; to track them. Feel free to leave feedback there if something is not working for you.&lt;/p&gt; 
+&lt;/div&gt; 
+&lt;div class=&quot;paragraph&quot;&gt; 
+ &lt;p&gt;You can get the Oxygen M4 version of Eclipse IDE from the &lt;a href=&quot;http://www.eclipse.org/downloads/index-developer.php&quot;&gt;Developer Builds download page&lt;/a&gt;.&lt;/p&gt; 
+&lt;/div&gt;</description>
+	<pubDate>Tue, 20 Dec 2016 23:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: SE Trends looks at Papyrus-IM!</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=353</guid>
+	<link>https://papyrusuml.wordpress.com/2016/12/20/se-trends-looks-at-papyrus-im/</link>
+	<description>&lt;p&gt;Earlier this month, &lt;a href=&quot;http://se-trends.de/eclipse-papyrus-im/&quot; target=&quot;_blank&quot;&gt;The Systems Engineering Trends&lt;/a&gt; blog featured an article from my friend Michael Jastram about one of my variants: Papyrus for Information Modeling (or Papyrus-IM for short). You might remember Michael from earlier this year (see &lt;a href=&quot;https://papyrusuml.wordpress.com/2016/05/11/constructive-criticism/&quot;&gt;here&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;For those who do not know, Papyrus-IM is:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;A Papyrus-based modeling product that is customized and streamlined for users interested in modeling the static structure of information with UML class diagrams.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;In short, a customised version mo Me for a specific purpose, with associated simplification.&lt;/p&gt;
+&lt;p&gt;From my reading of the article (and my German is not that great…) it seems I am making progress! But don’t take my word for it: go read the &lt;a href=&quot;http://se-trends.de/eclipse-papyrus-im/&quot; target=&quot;_blank&quot;&gt;article&lt;/a&gt; (in German, and Google Translate’s &lt;a href=&quot;https://translate.google.com/translate?hl=en&amp;amp;sl=de&amp;amp;tl=en&amp;amp;u=http%3A%2F%2Fse-trends.de%2Feclipse-papyrus-im%2F&quot; target=&quot;_blank&quot;&gt;English version&lt;/a&gt;), I’ll wait for you back here…&lt;/p&gt;
+&lt;p&gt;Good! You’re back! Did you enjoy the video? I though it was clear and simple, just like Papyrus-IM!&lt;/p&gt;
+&lt;p&gt;So what do you think? Am I getting better? I know I feel better!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://eclipse.org/papyrus-rt/&quot;&gt;Papyrus for Real Time&lt;/a&gt; is another example of a DSML being implemented using Me. The same approach used for the creation of Papyrus-IM is used for Papyrus-RT for menu reduction and viewpoints, but to a much larger extent as the UML-RT modeling language is much richer than just class diagrams. As stated in a &lt;a href=&quot;https://papyrusuml.wordpress.com/2016/11/16/papyrus-rt-v-0-8-0/&quot; target=&quot;_blank&quot;&gt;previous blog entry&lt;/a&gt;, Papyrus-RT is also available for download, but if you do not know UML-RT, better ask for help from my minions!&lt;/p&gt;
+&lt;p&gt;Thank you, Michael! I look forward to further articles about Me!&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-353&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Want to know more about Papyrus for Information Modeling? Check our the following links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiki.eclipse.org/Papyrus_for_Information_Modeling&quot; target=&quot;_blank&quot;&gt;Information&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiki.eclipse.org/Papyrus_for_Information_Modeling/Customization_Guide&quot; target=&quot;_blank&quot;&gt;Customization Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wiki.eclipse.org/Papyrus_for_Information_Modeling#Releases&quot; target=&quot;_blank&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt; &lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uml/&quot;&gt;UML&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt; Tagged: &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/article/&quot;&gt;article&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/papyrus-im/&quot;&gt;Papyrus-IM&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/papyrus-rt-2/&quot;&gt;papyrus-rt&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/review/&quot;&gt;review&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/se-trends/&quot;&gt;SE-Trends&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/353/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/353/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/353/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/353/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/353/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/353/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/353/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/353/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/353/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/353/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/353/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/353/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/353/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/353/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=353&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 20 Dec 2016 13:50:44 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Newsletter | Ready, Set… 2017!</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/X3cTPvpmEvc/</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/X3cTPvpmEvc/</link>
+	<description>2017. It's already here. Here are six great articles about some of the things you can expect to see in the new year!&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/X3cTPvpmEvc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 20 Dec 2016 10:50:00 +0000</pubDate>
+</item>
+<item>
+	<title>typefox.io: Getting Closer to Xtext 2.11: Beta 2</title>
+	<guid isPermaLink="false">http://typefox.io/?p=13979</guid>
+	<link>http://typefox.io/getting-closer-to-xtext-2-11-beta-2</link>
+	<description>&lt;div class=&quot;fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth&quot; style=&quot;background-color: rgba(255,255,255,0); background-position: center center; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px;&quot;&gt;&lt;div class=&quot;fusion-builder-row fusion-row &quot;&gt;&lt;div class=&quot;fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1&quot; style=&quot;margin-top: 0px; margin-bottom: 0px;&quot;&gt;
+			&lt;div class=&quot;fusion-column-wrapper&quot;&gt;
+				&lt;p&gt;A second milestone towards Xtext 2.11 named &lt;em&gt;Beta 2&lt;/em&gt; has been published today! The feature set is largely at the same state as with the &lt;a href=&quot;http://typefox.io/xtext-2-11-beta-1-is-here&quot;&gt;Beta 1&lt;/a&gt; published on October 21st. The main difference is that we spent a lot of effort in the build system for the &lt;a href=&quot;http://typefox.io/xtext-core-less-is-more&quot;&gt;new repository structure&lt;/a&gt;, allowing us to publish both for Eclipse and for Maven in a clean and consistent way. This means that you can use this new milestone also with Gradle or Maven projects, e.g. in applications built on the &lt;a href=&quot;https://www.eclipse.org/Xtext/documentation/330_web_support.html&quot;&gt;Xtext web integration&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eclipse update site: &lt;a href=&quot;http://download.eclipse.org/modeling/tmf/xtext/updates/milestones/head/S201612190948/&quot;&gt;http://download.eclipse.org/modeling/tmf/xtext/updates/milestones/head/S201612190948/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Maven version: &lt;code&gt;2.11.0.beta2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We would like to encourage all Xtext users to check this milestone version with their applications and to give us feedback. Now there’s still time to improve things before 2.11.0 is released (January 24th).&lt;/p&gt;
+&lt;h3&gt;Using the Cutting Edge&lt;/h3&gt;
+&lt;p&gt;As usual you can find nightly built snapshots on the &lt;a href=&quot;http://download.eclipse.org/modeling/tmf/xtext/updates/composite/latest/&quot;&gt;Xtext Latest&lt;/a&gt; update site or on &lt;a href=&quot;https://oss.sonatype.org/content/repositories/snapshots&quot;&gt;Sonatype Snapshots&lt;/a&gt;. However, if you want to apply even more up-to-date versions to your application, all subprojects of Xtext now offer their build artifacts in local repositories on our build server:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;xtext-lib: &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-lib/job/master/lastStableBuild/artifact/build/maven-repository/&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-lib/job/master/lastStableBuild/artifact/build/p2-repository/&quot;&gt;Eclipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;xtext-core: &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-core/job/master/lastStableBuild/artifact/build/maven-repository/&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-core/job/master/lastStableBuild/artifact/build/p2-repository/&quot;&gt;Eclipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;xtext-extras: &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-extras/job/master/lastStableBuild/artifact/build/maven-repository/&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-extras/job/master/lastStableBuild/artifact/build/p2-repository/&quot;&gt;Eclipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;xtext-eclipse: &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-eclipse/job/master/lastStableBuild/artifact/build/p2-repository/&quot;&gt;Eclipse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;xtext-web: &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-web/job/master/lastStableBuild/artifact/build/maven-repository/&quot;&gt;Maven&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;xtext-maven: &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-maven/job/master/lastStableBuild/artifact/build/maven-repository/&quot;&gt;Maven&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;xtext-xtend: &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-xtend/job/master/lastStableBuild/artifact/build/maven-repository/&quot;&gt;Maven&lt;/a&gt;, &lt;a href=&quot;http://services.typefox.io/open-source/jenkins/job/xtext-xtend/job/master/lastStableBuild/artifact/build/p2-repository/&quot;&gt;Eclipse&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These builds are triggered automatically when changes are pushed to the corresponding GitHub repositories. Please note that while the nightly built snapshots have signed JARs, the cutting edge builds are not signed.&lt;/p&gt;
+&lt;div class=&quot;fusion-clearfix&quot;&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Tue, 20 Dec 2016 08:04:48 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse Converge | Program Announced</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/EJ0CCKaOk-4/program-ready</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/EJ0CCKaOk-4/program-ready</link>
+	<description>Program Announced for Eclipse Converge 2017! Early-bird registration is open. Get $120 off the conference pass.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/EJ0CCKaOk-4&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Tue, 20 Dec 2016 07:30:00 +0000</pubDate>
+</item>
+<item>
+	<title>Cedric Brun: Graphical Modeling from 2016 to 2017: Better, Faster, Stronger</title>
+	<guid isPermaLink="false">http://cedric.brun.io/eclipse/modeling-2016-2017-better-faster-stronger</guid>
+	<link>http://cedric.brun.io/eclipse/modeling-2016-2017-better-faster-stronger/</link>
+	<description>&lt;p&gt;At Obeo, we believe that modeling is the right way to help IT and industry engineers collaborate efficiently on the design of their smart products. Our innovative approach consists of building specific modeling tools that completely suit users’ business domains. Modeling is a means to an end: by using modeling technologies we make sure that such a tool can be defined faster, as well as deployed and maintained better.&lt;/p&gt;
+
+&lt;p&gt;To achieve this goal, we develop highly customizable open source software, such as &lt;a href=&quot;http://www.eclipse.org/sirius/&quot; target=&quot;_blank&quot;&gt;Eclipse Sirius&lt;/a&gt;. We consider that a modeling tool must be adaptable, flexible, and user-friendly. This year again, we worked hard to focus on that!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://cedric.brun.io/images/blog/2016-2017/1capture.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you may know, Sirius is the easiest way to get your own modeling tool and to do it rapidly. Indeed, it dramatically reduces the time spent on creating domain-specific modeling workbenches thanks to an interpretation mode that allows very short feedback-loops. In 2016, we invested time in the Eclipse Ecore Tools project to facilitate the definition of modeling languages by providing a very intuitive and powerful Ecore graphical editor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://cedric.brun.io/images/blog/2016-2017/2capture.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been three years since Sirius was made open source and the community is growing every year. A few weeks ago, part of this community gathered for the second edition of &lt;a href=&quot;http://www.siriuscon.org/&quot; target=&quot;_blank&quot;&gt;SiriusCon&lt;/a&gt; in Paris. More than 100 attendees coming from more than 10 different countries participated in this international conference on graphical modeling. If that is not proof that Sirius is a worldwide technology, we don’t know what is!&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://cedric.brun.io/images/blog/2016-2017/3capture.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At SiriusCon, we had the opportunity to present one of the latest key features of Sirius: &lt;a href=&quot;http://www.eclipse.org/sirius/whatsnew/whatsnew4-1.html&quot;&gt;the properties view&lt;/a&gt;. It turned out that with all the improvements Sirius brings to the specification of the modeling view, the bottleneck was in the definition of the properties view to be linked to each graphical element. The Obeo team addressed that problem.&lt;/p&gt;
+
+&lt;p&gt;Now, Sirius provides an integrated way to define properties views in the same way the user is used to defining them in other parts of the designer: no need for coding - it is dynamic and query based. In addition, with &lt;a href=&quot;http://www.eclipse.org/sirius/download.html&quot; target=&quot;_blank&quot;&gt;Sirius 4.1&lt;/a&gt;, the user is now able to specify exactly how the properties view should be represented.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/2016-2017/4capture.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/2016-2017/4capture.png&quot; /&gt;&lt;/a&gt;    
+    
+&lt;/figure&gt;
+
+&lt;p&gt;Sirius 4.1 has default rules based on the type of the elements defined in the metamodel. For example, if the user has defined a string attribute in his metamodel, it will be automatically represented by a text widget; a boolean will be represented by a checkbox, and so on. If the default properties view does not fit the user’s needs, no problem: it can be customized.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/2016-2017/5capture.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/2016-2017/5capture.png&quot; /&gt;&lt;/a&gt;    
+    
+&lt;/figure&gt;
+
+&lt;p&gt;In 2017, we want to go further building on the same fundamentals. We will focus on technologies that are &lt;strong&gt;real-world ready, adaptable, and give instant feedback&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We’ve been working on the codebase for months already, but next year will see a nice scalability offspring: a core runtime that can scale any number of diagrams or their size while keeping everything consistent like it currently does today. And that’s only under the hood, in a more visible way we’ll hunt for every break a user might encounter in the workflow of using a modeling tool. Here is an example when the user ends up trying to set up diagrams and models while not being the modeling perspective:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/2016-2017/6capture.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/2016-2017/6capture.png&quot; /&gt;&lt;/a&gt;    
+    
+&lt;/figure&gt;
+
+&lt;p&gt;The model content or diagrams are not visible in the package explorer yet, the Eclipse IDE doesn’t have an editor for &lt;code class=&quot;highlighter-rouge&quot;&gt;.aird&lt;/code&gt; files, and double clicking it will not help. We plan to address this next year by providing a default editor for &lt;code class=&quot;highlighter-rouge&quot;&gt;.aird&lt;/code&gt; files.&lt;/p&gt;
+
+&lt;p&gt;This editor gives us a whole new dimension to present your tooling features and is the starting point to a project that will grow during the next few years: making the tooling aware of the process to achieve better usability.&lt;/p&gt;
+
+&lt;p&gt;Hear me well, the word “aware” is picked with care and “process driven” is banned in this context. In the end the user gets to decide and the tool should never get in the way, but by making the tool aware of the process or methodology we can make it more helpful. This will first be translated by the integration of the Activity Explorer which got contributed to Amalgam by Thales last year. This allows anyone to define the process activities without writing a single line of code, in the very same way you can currently define diagrams, tables or the properties view, right into the &lt;code class=&quot;highlighter-rouge&quot;&gt;.odesign&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/2016-2017/7capture.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/2016-2017/7capture.png&quot; /&gt;&lt;/a&gt;    
+    
+&lt;/figure&gt;
+
+&lt;p&gt;Other improvements especially focused on the diagrams are in the works. Here is a mockup of a new mechanism to enrich existing diagram editors, you can think of it as “decorators on steroids”. Follow this &lt;a href=&quot;https://bugs.eclipse.org/bugs/show_bug.cgi?id=506259&quot; target=&quot;_blank&quot;&gt;bug&lt;/a&gt; if you are interested.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt=&quot;&quot; src=&quot;http://cedric.brun.io/images/blog/2016-2017/8capture.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are in a continuous evolution. We strive to continually improve the user experience and to streamline the complete model environment building process. This means that we have our hands in many Eclipse projects, from Ecore Tools, EMF Compare, Acceleo, Amalgam, EEF to Sirius and improve each of those. We are building various technologies independently while making sure they integrate seamlessly in the final product.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;a href=&quot;http://cedric.brun.io/images/blog/2016-2017/9capture.png&quot;&gt;&lt;img src=&quot;http://cedric.brun.io/images/blog/2016-2017/9capture.png&quot; /&gt;&lt;/a&gt;    
+    
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://polarsys.org/capella/&quot; target=&quot;_blank&quot;&gt;Capella&lt;/a&gt;, one of the solutions provided by Eclipse PolarSys Working Group, is one example of a product aggregating such technologies. It is already a field-proven Model-Based Systems Engineering (MBSE) workbench.&lt;/p&gt;
+
+&lt;p&gt;Capella was developed by Thales to help engineers formalize system specifications and master their architectural design. It is sustainable and adaptable and has already been successfully deployed in a wide variety of industrial contexts (aerospace, communication, transportation, etc.). This is a modeling environment focused on a domain tooling a methodology, based on many of the technologies mentioned before. It is 100% open source. &lt;a href=&quot;https://polarsys.org/capella/&quot; target=&quot;_blank&quot;&gt;Check out what can be done with it!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Is modeling in 2017 going better, faster, stronger? Challenge accepted! The Obeo team is up to the task! We will do our possible to reach a new level and deliver cutting edge modeling tools.&lt;/p&gt;
+
+&lt;p&gt;To achieve anything we need the support of our enthusiastic community. We know that in 2017 we will be able to rely on the Eclipse users as we have always done. We want to get closer to the users and receive fine-grained feedback to improve our technologies even more. We are currently working on a new online (and IRL!) way to deal with that… but you will have to stay tuned to get more information. Keep your eyes peeled for the upcoming &lt;a href=&quot;http://www.siriuscon.org/&quot; target=&quot;_blank&quot;&gt;SiriusCon&lt;/a&gt;, it’s the best place to interact with us!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://cedric.brun.io/eclipse/modeling-2016-2017-better-faster-stronger/&quot;&gt;Graphical Modeling from 2016 to 2017: Better, Faster, Stronger&lt;/a&gt; was originally published by Cédric Brun at &lt;a href=&quot;http://cedric.brun.io&quot;&gt;CTO @ Obeo&lt;/a&gt; on December 20, 2016.&lt;/p&gt;</description>
+	<pubDate>Tue, 20 Dec 2016 00:00:00 +0000</pubDate>
+	<author>cedric.brun@obeo.fr (Cédric Brun)</author>
+</item>
+<item>
+	<title>Kaloyan Raev: Making the Text Editor to be the Default One for All Unknown Files in Eclipse</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-2621158270780051626.post-4907786356117469284</guid>
+	<link>http://kaloyanraev.blogspot.com/2015/04/making-text-editor-to-be-default-one.html</link>
+	<description>&lt;i&gt;&lt;b&gt;NOTE.&lt;/b&gt; &lt;span style=&quot;background-color: #fefdfa; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; text-align: justify;&quot;&gt;The functionality of the Default Text Editor plugin has been implemented in the Eclipse Platform with the Neon release. Check the &lt;/span&gt;&lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.6/platform.php#text-editor-selection-strategy&quot; rel=&quot;nofollow&quot; style=&quot;background-color: #fefdfa; color: #7d181e; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; text-align: justify; text-decoration: none;&quot;&gt;release notes&lt;/a&gt;&lt;span style=&quot;background-color: #fefdfa; color: #333333; font-family: Arial, Tahoma, Helvetica, FreeSans, sans-serif; font-size: 15px; text-align: justify;&quot;&gt; for details.&lt;/span&gt;&lt;/i&gt;&lt;br /&gt;&lt;br /&gt;Eclipse users usually work with many different file types. Some of the file types may be opened by default in an external editor instead of in the Eclipse workbench. This happens if Eclipse has no editor available to handle that particular file type, but there is one installed in the operating system. In such case Eclipse assumes that it is better for the user to have the file opened in the external system editor.&lt;br /&gt;&lt;br /&gt;Lots of users are quite annoyed by this behavior, especially when it comes to text-based files. They would prefer to have the file opened in the plain text editor of Eclipse instead of switching the context to the external program. Unfortunately, there is no easy way to change this in the preference settings. It's possible to associate a specific file extension with the plain text editor, but this must be done separately for every file extensions. There is no way to say &quot;all text files of unknown type should open in the text editor&quot;.&lt;br /&gt;&lt;br /&gt;Here comes the &lt;a href=&quot;https://github.com/eclipselabs/default-text-editor&quot;&gt;Default Text Editor&lt;/a&gt; plugin. It takes advantage of the &lt;a href=&quot;http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.platform.doc.isv%2Freference%2Fextension-points%2Forg_eclipse_ui_ide_editorAssociationOverride.html&quot;&gt;Editor Association Override&lt;/a&gt; extension point introduced in Eclipse 3.8. When the plugin is installed it will change the default behavior of Eclipse and will opened all text files of unknown type in the plain text editor. Binary files like images may still be opened in an external system editor. As simple as that.&lt;br /&gt;&lt;br /&gt;The plugin is available on the &lt;a href=&quot;https://marketplace.eclipse.org/content/default-text-editor&quot;&gt;Eclipse Marketplace&lt;/a&gt;. It can also be installed through an &lt;a href=&quot;https://dl.bintray.com/kaloyan-raev/default-text-editor/&quot;&gt;update site&lt;/a&gt;. More info is available on the &lt;a href=&quot;https://github.com/eclipselabs/default-text-editor&quot;&gt;GitHub project&lt;/a&gt;.</description>
+	<pubDate>Mon, 19 Dec 2016 20:25:26 +0000</pubDate>
+	<author>noreply@blogger.com (Kaloyan Raev)</author>
+</item>
+<item>
+	<title>Ian Skerrett: IoT Trends to Watch in 2017</title>
+	<guid isPermaLink="false">http://ianskerrett.wordpress.com/?p=3864</guid>
+	<link>http://feedproxy.google.com/~r/IanSkerrett/~3/63uwfv5S40k/</link>
+	<description>&lt;p&gt;2016 has been an incredible year for the IoT industry and the pace of innovation looks like it will accelerate in 2017. Last week I participated in a webinar, organized by Canonical, on the IoT trends to watch in 2017. It was a really good discussion, so feel free to &lt;a href=&quot;https://www.brighttalk.com/webcast/6793/236729&quot;&gt;listen to the recording&lt;/a&gt;.  I think it would also be interesting to summarize some of the 2017 trends I see in the IoT industry and specifically in the Eclipse IoT community.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Industry Consolidation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By some counts there are &lt;a href=&quot;https://www.mobileworldlive.com/mwc16-articles/iot-experts-fret-over-fragmentation/&quot;&gt;300 IoT software platforms&lt;/a&gt; available in the market today. This is obviously not sustainable and I see this number dropping significantly in 2017. It appears the VC community is &lt;a href=&quot;https://www.cbinsights.com/blog/iot-startups-funding-deals/&quot;&gt;slowing down their investments&lt;/a&gt; in IoT startups and expect to see some of the more successful startups being acquired by larger companies looking to complete their IoT technology platform.&lt;/p&gt;
+&lt;p&gt;In the long term the number of IoT software platforms is going to consolidate to 5-7 suppliers. It will take a number of years but this is the direction the industry will take. If history repeats itself, an open source platform will be one that survives and I expect it will be from Eclipse IoT.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Importance of Vertical Industries for IoT&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In 2017 we will see more and more focus on vertical industries, like Industrie 4.0, Smart Cities and Connect Car. This is because IoT technology vendors need to show business value and industry solutions are how organization see the real benefit of IoT.&lt;/p&gt;
+&lt;p&gt;We will see the focus on vertical industries in different areas, including 1) vendors go-to-market strategies that offer industry specific analytics, 2) vertical industry consortium focusing more on IoT technologies, like &lt;a href=&quot;http://www.plattform-i40.de/I40/Navigation/EN/Home/home.html&quot;&gt;Industrie 4.0 in Germany&lt;/a&gt;, and 3) vertical industry open source technology, like &lt;a href=&quot;https://www.eclipse.org/4diac/&quot;&gt;Eclipse 4DIAC&lt;/a&gt; and &lt;a href=&quot;https://github.com/eclipse/milo&quot;&gt;Eclipse Milo&lt;/a&gt;. I also expect to see additional open source frameworks that will target specific industries.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Follow the Money: IoT Analytics&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;IoT Analytics will be very important in 2017. All the data that is being collected needs to be transformed into useful information. Expect to see analytics at the edge and via IoT cloud platforms. In 2017, we will see communities of IoT analytic algorithms emerge.&lt;/p&gt;
+&lt;p&gt;In the Eclipse IoT community, I hope we see analytics technology being incorporated into Eclipse Kura and Eclipse Kapua and new Eclipse projects that focus on IoT analytics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Investments in Fog/Edge Computing&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;More and more technology is going to be released around Fog/Edge computing. The recent &lt;a href=&quot;https://aws.amazon.com/greengrass/&quot;&gt;Amazon Greengrass&lt;/a&gt; announcement is a good example. It will be interesting to see the work of the &lt;a href=&quot;https://www.openfogconsortium.org/&quot;&gt;OpenFog Computing Consortium&lt;/a&gt; being rolled out in 2017. The &lt;a href=&quot;https://projects.eclipse.org/projects/iot.iofog&quot;&gt;Eclipse ioFog&lt;/a&gt; project has lots of promise and I expect big things from it in 2017.&lt;/p&gt;
+&lt;p&gt;In 2017, Fog/Edge computing will become the buzz word for the IoT platform vendors. NOTE: of course the definition and terminology of fog or edge is still not well defined.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Launch of IoT Markets&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As IoT Platforms emerge expect to see IoT markets or marketplaces emerge around them. For instance, &lt;a href=&quot;http://www.litmusautomation.com/2016/12/12/litmus-automation-announces-the-worlds-first-edge-level-iot-industrial-automation-marketplace/&quot;&gt;Litmus Automation&lt;/a&gt; recently announced a marketplace for their platform. In the Eclipse IoT community, we plan to launch in 2017 an IoT Market that will support the Eclipse Kura and Eclipse Smarthome ecosystems of drivers and applications.&lt;/p&gt;
+&lt;p&gt;Overall, 2017 is shaping up to be an exciting year for the &lt;a href=&quot;https://iot.eclipse.org/&quot;&gt;Eclipse IoT community&lt;/a&gt;. Eclipse IoT is well positioned to be the leader in open source IoT. I expect to see continued growth in adoption of Eclipse IoT technology and technical innovation within the open source projects.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/ianskerrett.wordpress.com/3864/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/ianskerrett.wordpress.com/3864/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=ianskerrett.wordpress.com&amp;amp;blog=405862&amp;amp;post=3864&amp;amp;subd=ianskerrett&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/IanSkerrett/~4/63uwfv5S40k&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 19 Dec 2016 17:24:44 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: My past and future -An interview</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=324</guid>
+	<link>https://papyrusuml.wordpress.com/2016/12/19/my-past-and-future-an-interview/</link>
+	<description>&lt;p&gt;If you are not aware of the &lt;a href=&quot;http://modeling-languages.com/&quot; target=&quot;_blank&quot;&gt;Modeling Languages blog&lt;/a&gt;, you are missing one of the best sources of up-to-date modelling information on the web!  And I’m not just saying that because of the recent &lt;a href=&quot;http://modeling-languages.com/francis-bordeleau-on-papyrus-modeling-eclipse/?utm_content=bufferda4d7&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot; target=&quot;_blank&quot;&gt;great interview about me&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;Modeling Languages’s Jordi Cabot provides us all with a great interview of Francis Bordeleau, chairman of my Industry Consortium and Ericsson employee, about my past, growth, and future.&lt;/p&gt;
+&lt;p&gt;In this post, Jordi stated:&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;I believe this interview is interesting not only for people using Papyrus (or looking for a Eclipse-based modeling tool to use) but it includes many valuable insights for all of you trying to push various open source initiatives and aim for their sustainable development.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;And I can’t agree more!&lt;/p&gt;
+&lt;p&gt;The discussion covers a lot, from Ericsson’s belief that they need to control their tool destiny and that the best way to do this is to be part of it (hint: Open source ME!), to my evolution and the creation of the Me Industry Consortium, enabling many companies to work together to make me better and providing me with more minions!&lt;/p&gt;
+&lt;p&gt;Thanks to Jordi and Francis for this exposé!&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus/&quot;&gt;Papyrus&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/papyrus-ic/&quot;&gt;Papyrus IC&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt; Tagged: &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/papyrusic/&quot;&gt;#papyrusic&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/ericsson/&quot;&gt;ericsson&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/interview/&quot;&gt;interview&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/open-source/&quot;&gt;open-source&lt;/a&gt;, &lt;a href=&quot;https://papyrusuml.wordpress.com/tag/papyrus/&quot;&gt;Papyrus&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/324/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/324/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/324/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/324/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/324/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/324/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/324/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/324/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/324/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/324/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/324/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/324/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/324/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/324/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=324&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Mon, 19 Dec 2016 13:57:42 +0000</pubDate>
+</item>
+<item>
+	<title>Benjamin Cabe: Using MQTT and Eclipse Paho in Android Things</title>
+	<guid isPermaLink="false">https://blog.benjamin-cabe.com/?p=2747</guid>
+	<link>http://feedproxy.google.com/~r/benjamin-cabe-planet-eclipse/~3/gV1Cy64notE/using-mqtt-and-eclipse-paho-in-android-things</link>
+	<description>&lt;p&gt;A couple of days ago, &lt;a href=&quot;https://android-developers.googleblog.com/2016/12/announcing-googles-new-internet-of-things-platform-with-weave-and-android-things.html&quot; target=&quot;_blank&quot;&gt;Google announced&lt;/a&gt; that they were essentially rebranding Brillo to &lt;strong&gt;Android Things&lt;/strong&gt; (I do love that name, by the way!), and finally opening it for a Developer Preview.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;&quot; class=&quot;aligncenter size-full wp-image-2750&quot; height=&quot;79&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2016/12/android-things-logo.png&quot; width=&quot;493&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;There are a few things I already like very much in Android Things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It is already &lt;strong&gt;supported on &lt;a href=&quot;https://developer.android.com/things/hardware/edison.html&quot;&gt;Intel Edison&lt;/a&gt;, &lt;a href=&quot;https://developer.android.com/things/hardware/pico.html&quot;&gt;NXP Pico&lt;/a&gt; and &lt;a href=&quot;https://developer.android.com/things/hardware/raspberrypi.html&quot;&gt;Raspberry Pi 3&lt;/a&gt;&lt;/strong&gt;, and there are ready to use filesystem images that you can just flash to get going with Android Things in just minutes.&lt;/li&gt;
+&lt;li&gt;The &lt;strong&gt;&lt;a href=&quot;http://blog.pimoroni.com/rainbow-hat-in-depth/&quot; target=&quot;_blank&quot;&gt;Rainbow HAT&lt;/a&gt;&lt;/strong&gt; sensor kit that’s available for Raspberry Pi is very cool, and includes a 4-digit LED display, 7 RGB LEDs, a temperature and barometric sensor, a piezzo buzzer for basic PWM-based audio, and three capacitive touch buttons. &lt;a href=&quot;https://www.sparkfun.com/products/14102&quot; target=&quot;_blank&quot;&gt;Sparkfun has a kit&lt;/a&gt; that’s targeting the Edison, while &lt;a href=&quot;https://www.adafruit.com/product/3227&quot; target=&quot;_blank&quot;&gt;Adafruit’s kit&lt;/a&gt; is general purpose and meant for breadboard enthusiasts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;wp-caption aligncenter&quot; id=&quot;attachment_2748&quot; style=&quot;width: 474px;&quot;&gt;&lt;a href=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2016/12/rainbow-hat-only-1.jpg&quot;&gt;&lt;img alt=&quot;&quot; class=&quot;size-large wp-image-2748&quot; height=&quot;276&quot; src=&quot;https://blog.benjamin-cabe.com/wp-content/uploads/2016/12/rainbow-hat-only-1-1024x596.jpg&quot; width=&quot;474&quot; /&gt;&lt;/a&gt;Rainbow HAT for Raspberry Pi (Photo credit: Pimoroni)&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;Anyone who’s tried to &lt;strong&gt;manipulate low-level peripherals&lt;/strong&gt; using Java will be pretty happy to see that Android Things’ Peripheral I/O APIs provide nice wrappers for &lt;a href=&quot;https://developer.android.com/things/sdk/pio/gpio.html&quot;&gt;GPIOs&lt;/a&gt;, &lt;a href=&quot;https://developer.android.com/things/sdk/pio/pwm.html&quot;&gt;PWM&lt;/a&gt;, &lt;a href=&quot;https://developer.android.com/things/sdk/pio/i2c.html&quot;&gt;I2C&lt;/a&gt;, &lt;a href=&quot;https://developer.android.com/things/sdk/pio/spi.html&quot;&gt;SPI&lt;/a&gt; and &lt;a href=&quot;https://developer.android.com/things/sdk/pio/uart.html&quot;&gt;UART&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Implementing &lt;strong&gt;IoT sensor drivers taps into the existing &lt;a href=&quot;https://developer.android.com/guide/topics/sensors/sensors_overview.html&quot; target=&quot;_blank&quot;&gt;sensor framework&lt;/a&gt;&lt;/strong&gt; you may already be familiar with if you’ve already tried to access the gyroscope or light sensor of an Android device in your app, and the same SensorManager API you’re already used to can be used with your new devices (for which a driver may already exist, and if not &lt;a href=&quot;https://developer.android.com/things/sdk/drivers/sensors.html&quot; target=&quot;_blank&quot;&gt;adding a new one&lt;/a&gt; does not seem overly complex)&lt;/li&gt;
+&lt;li&gt;Finding good &lt;strong&gt;development tools&lt;/strong&gt; for building IoT solutions is always a challenge. It’s great to be able to leverage the Android SDK tools and Android Studio for things like device emulation, debugging, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I just received my Rainbow HAT today and thought I would use the opportunity to do a quick tutorial on how to use MQTT with Android Things, using &lt;a href=&quot;https://eclipse.org/paho&quot;&gt;Eclipse Paho&lt;/a&gt;. What’s more, I’ll also show you a cool feature in &lt;a href=&quot;https://github.com/eclipse/paho.mqtt-spy&quot; target=&quot;_blank&quot;&gt;mqtt-spy&lt;/a&gt; that will allow us to easily display the live temperature on a chart.&lt;/p&gt;
+&lt;p&gt;I used the &lt;a href=&quot;https://github.com/androidthings/weatherstation&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Weather Station&lt;/em&gt; example&lt;/a&gt; from Android Things as a starting point, as it is already including code to publish data to the cloud using Google Pub/Sub. &lt;a href=&quot;https://github.com/kartben/weatherstation&quot; target=&quot;_blank&quot;&gt;My fork is available on Github&lt;/a&gt;, and as you can see the changes to the original example are very limited!&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://www.youtube.com/watch?v=Xl3iWDDntUc&quot; target=&quot;_blank&quot;&gt;video&lt;/a&gt;, and let me know if you have any questions!&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+ &lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/benjamin-cabe-planet-eclipse/~4/gV1Cy64notE&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 16 Dec 2016 18:41:36 +0000</pubDate>
+</item>
+<item>
+	<title>Eclipse Announcements: Eclipse IoT Day | San Jose 2017</title>
+	<guid isPermaLink="true">http://feedproxy.google.com/~r/eclipse/fnews/~3/K-R9ob2L7Nc/iotdaysanjose.php</guid>
+	<link>http://feedproxy.google.com/~r/eclipse/fnews/~3/K-R9ob2L7Nc/iotdaysanjose.php</link>
+	<description>Eclipse IoT is pleased to announce the next Eclipse IoT Day taking place March 20 in San Jose, California.&lt;img alt=&quot;&quot; height=&quot;1&quot; src=&quot;http://feeds.feedburner.com/~r/eclipse/fnews/~4/K-R9ob2L7Nc&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 16 Dec 2016 17:00:00 +0000</pubDate>
+</item>
+<item>
+	<title>Paul Trevithick: Advantages of social media for businesses</title>
+	<guid isPermaLink="false">http://www.incontextblog.com/?p=50</guid>
+	<link>http://www.incontextblog.com/advantages-social-media-businesses/</link>
+	<description>&lt;p&gt;&lt;a href=&quot;http://www.incontextblog.com/wp-content/uploads/2016/12/social-media-763731.jpg&quot;&gt;&lt;img alt=&quot;social-media-763731&quot; class=&quot;alignnone  wp-image-51&quot; height=&quot;789&quot; src=&quot;http://www.incontextblog.com/wp-content/uploads/2016/12/social-media-763731-300x199.jpg&quot; width=&quot;1189&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Marketing for businesses is crucial for growing the company. The fact that social media is now bigger than ever, many companies are taking full advantage of this.&lt;/p&gt;
+&lt;p&gt;We all know that social media has become a game changer and a very powerful tool for promoting and increasing awareness of businesses. Social media sites including Facebook, Google+, YouTube, Twitter and Instagram are the main sites that have millions of audience all around the world.&lt;/p&gt;
+&lt;p&gt;So in case if you’re wondering of joining the bandwagon, we’ve collected the following articles that show you why social media is beneficial for your business.&lt;/p&gt;
+&lt;p class=&quot;curated_content&quot;&gt;&lt;a class=&quot;cs_link&quot; href=&quot;http://techniblogic.com/social-media-marketing-for-local-business-today/&quot; target=&quot;_blank&quot;&gt;1.) Social Media Marketing for Local Business Today | Techniblogic&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;curated_content&quot;&gt;With the coming of platforms like Facebook or myspace, Twitter, LinkedIn, Pinterest and Instagram businesses today, we have received an opportunity to promote their businesses with almost no costs. A failure to develop on, while getting such opportunity and not utilising upon Public Press Promotion is like losing a drink from a lake of water in a desert. Companies who do not take advantage of Social Media will gradually slack down in their growth. &lt;a class=&quot;cs_link&quot; href=&quot;http://techniblogic.com/social-media-marketing-for-local-business-today/&quot; target=&quot;_blank&quot;&gt;Read more…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Social Media has allowed businesses to link with their customers and associates in a more personal way. It means companies to build long long-term interaction with their potential viewers. Loyalists of a product have developed a greater feeling of owned by the product as they feel that the product knows them and it is not just they who know the brand! This gives a personal flavor to the brand-consumer relations. &lt;a class=&quot;cs_link&quot; href=&quot;http://techniblogic.com/social-media-marketing-for-local-business-today/&quot; target=&quot;_blank&quot;&gt;read more at techniblogic.com&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;curated_content&quot;&gt;2.) &lt;a class=&quot;cs_link&quot; href=&quot;http://techniblogic.com/benefits-of-social-media-for-business-blogging/&quot; target=&quot;_blank&quot;&gt;Benefits Of Social Media For Business Blogging | Techniblogic&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;curated_content&quot;&gt;Business bloggers who are using social media can definitely take advantage of the ease of making their brand easily famous and recognized. Social media is highly influential, thus the word can easily be passed on from one individual to another or can be a group to another. The number of participants who are passing the message from one to another can surely make the blog you made for a specific business, may it be for a product or service, can easily be spread out. &lt;a class=&quot;cs_link&quot; href=&quot;http://techniblogic.com/benefits-of-social-media-for-business-blogging/&quot; target=&quot;_blank&quot;&gt;Read more…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Since social media is just highly interactive, you know for a fact, where is your business going to. Getting the inputs and interests of your target market can easily be viewed and accessed through their commentaries on certain blogs you post. The challenge now is for you to easily respond to these inquiries. You should never let anything hanging for long. Making things all interactive by replying to inquiries, comments even if they are sentiments or complaints, can give your business success. &lt;a class=&quot;cs_link&quot; href=&quot;http://techniblogic.com/benefits-of-social-media-for-business-blogging/&quot; target=&quot;_blank&quot;&gt;Via techniblogic.com&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;curated_content&quot;&gt; 3.) &lt;a class=&quot;cs_link&quot; href=&quot;http://www.jobsnhire.com/articles/53203/20161214/3-siple-ways-properly-integrate-social-media-business-marketing.htm&quot; target=&quot;_blank&quot;&gt;3 Siple Ways To Properly Integrate Social Media In Business Marketing&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;curated_content&quot;&gt;Content marketing is one of the strongest marketing strategies. By simply posting information about the products or services, the company becomes a place where audiences will refer on as per web research. This is directly influential to the company’s reputation management. However, when posting information, one must not promote his or her company alone. In fact, the main objective here is not to do promotion but rather share valuable and credible information about everything in the market. Writing blogs and articles about the latest news and updates in the industry that the company belongs to is just perfect to stay in tune.&lt;/p&gt;
+&lt;p&gt;Growth rate often determines the range of success of a certain company. This will determine the effectivity of each tools that you used and the engagement of customers it your company. Growth rate will continue to expand as long as you know the … &lt;a class=&quot;cs_link&quot; href=&quot;http://www.jobsnhire.com/articles/53203/20161214/3-siple-ways-properly-integrate-social-media-business-marketing.htm&quot; target=&quot;_blank&quot;&gt;read more at jobsnhire.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;http://www.incontextblog.com/advantages-social-media-businesses/&quot; rel=&quot;nofollow&quot;&gt;Advantages of social media for businesses&lt;/a&gt; appeared first on &lt;a href=&quot;http://www.incontextblog.com&quot; rel=&quot;nofollow&quot;&gt;Incontexblog.org&lt;/a&gt;.&lt;/p&gt;</description>
+	<pubDate>Fri, 16 Dec 2016 15:24:05 +0000</pubDate>
+</item>
+<item>
+	<title>Sven Efftinge: Five good reasons to port your code generator to Xtend</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-24248206.post-9086010527275606885</guid>
+	<link>http://blog.efftinge.de/2013/06/five-good-reasons-to-port-your-code.html</link>
+	<description>If you happen to have an existing code generator written in Xpand or some other (template) language, here are five good reasons why you should migrate to Xtend.&lt;br /&gt;&lt;h4&gt;Xtend is fast&lt;/h4&gt;Code generation adds to the development turn around time. We all know it : tools can slow us down. They take their share of CPU cycles during the daily development and all that automation is not worth it, if you have to wait for your machine all day long. Many template languages are interpreted and are therefore rather slow as they cannot benefit from optimizations done during compilation. Code generators written in these languages suffer from that of course, and if you don't care you can easily multiply the time your build takes with a slow code generator.&lt;br /&gt;Xtend code is translated to readable and idomatic Java code. It runs as fast as Java, which is *very* fast and there's no additional overhead nor dependencies at runtime. Rough measures have shown that code generators implemented with Xtend are up to ten times faster then the equivalent Xpand version.&lt;br /&gt;&lt;h4&gt;Xtend is debuggable&lt;/h4&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-QAQvuJ9a_SE/UcBmUo4kHCI/AAAAAAAAAis/OpIS62uzq-M/s1600/Screen+Shot+2013-06-18+at+3.52.47+PM.png&quot; style=&quot;clear: right; float: right; margin-bottom: 1em; margin-left: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-QAQvuJ9a_SE/UcBmUo4kHCI/AAAAAAAAAis/OpIS62uzq-M/s400/Screen+Shot+2013-06-18+at+3.52.47+PM.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;Code generators, just like any other software system, have a tendency to get a bit complex over time. It's not so funny to find and fix a bug in a real world code generator without any debugging support. Unfortunately that's the situation with most template languages : They don't have any good debugging support.&lt;br /&gt;As Xtend code is translated to readable Java code you can always use the advanced Java debugging tools you are used to. Additionally the Eclipse debugger lets you choose whether you want to debug through the Xtend source code or the generated Java code. You can even switch back and forth during the same debug session (see the screenshot).&lt;br /&gt;&lt;h4&gt;Better IDE Support&lt;/h4&gt;Xtend's Eclipse support is propably the most advanced after Java. The integration between Xtend and Java is seamless : Navigation, Call Hierarchies and even cross language refactorings just work. And Xtend features the whole Java type system and gives you errors and warnings as you type.&lt;br /&gt;&lt;h4&gt;Template Expressions and Grey-Space Support&lt;/h4&gt;In contrast to typical template languages such as Xpand, templates in Xtend are expressions which yield some value. This allows for composing multiple templates and lets you pass the results around and process them.&lt;br /&gt;A unique feature to Xtend is the greyspace support. It solves the conflict between pretty printing a template and pretty printing the to-be-generated output. Common template languages cannot distinguish between indentation meant for the template and indentation meant for the output. Xtend can. Here's an example (note the different coloring of whitespace):&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: left;&quot;&gt;&lt;a href=&quot;http://3.bp.blogspot.com/-DlpzLL_XnhA/UcBm-_-mhjI/AAAAAAAAAi0/uRnXFC7PBaA/s1600/Xtend_template_coloring.png&quot; style=&quot;clear: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-DlpzLL_XnhA/UcBm-_-mhjI/AAAAAAAAAi0/uRnXFC7PBaA/s1600/Xtend_template_coloring.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;h4&gt;Better Extendability&lt;/h4&gt;In order to reuse a code generator and adapt it to the needs of a particular project, you need to be able to hook into it and change certain implementation details. In Xpand this was supported through AOP: You could hook into any template invocation and do what seems fit.&lt;br /&gt;Although very flexible, this approach is also very fragile. The original code generator cannot be evolved, since clients might hook into any template call and you break them easily. Even worse you don't get any compile-time feedback about the broken extension hook.&lt;br /&gt;With Xtend you can use dependency injection together with &lt;a href=&quot;http://blog.efftinge.de/2013/06/xtends-extension-providers.html&quot;&gt;extension providers&lt;/a&gt;. No AOP anymore and the solutions is even faster and statically typed. If you need to exchange some implementation, just reconfigure your dependency injection configuration and your are good.&lt;br /&gt;&lt;h4&gt;Summary&lt;/h4&gt;There are many more advantages and cool features in Xtend, but I hope the five listed here are convincing enough.   &lt;br /&gt;&lt;div style=&quot;margin-bottom: 5px;&quot;&gt;&lt;strong&gt; &lt;a href=&quot;http://www.slideshare.net/sefftinge/codegeneration-with-xtend&quot; target=&quot;_blank&quot; title=&quot;Codegeneration With Xtend&quot;&gt;Codegeneration With Xtend&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;http://www.slideshare.net/sefftinge&quot; target=&quot;_blank&quot;&gt;Sven Efftinge&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;</description>
+	<pubDate>Thu, 15 Dec 2016 16:16:04 +0000</pubDate>
+	<author>noreply@blogger.com (Sven Efftinge)</author>
+</item>
+<item>
+	<title>JBoss Tools Team: Installing Red Hat Developer Studio 10.2.0.GA through RPM</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/10.2.0.rpm-installation.html</guid>
+	<link>https://tools.jboss.org/blog/10.2.0.rpm-installation.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With the release of &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/neon/10.2.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 10.2&lt;/a&gt;, it is now possible to install Red Hat JBoss Developer Studio as an RPM.
+      It is available as a tech preview. The purpose of this article is to describe the steps you should follow in order to install Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;red-hat-software-collections&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#red-hat-software-collections&quot;&gt;&lt;/a&gt;Red Hat Software Collections&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio RPM relies on Red Hat Software Collections. You don’t need to install Red Hat Software Collections but you need to enable
+      the Red Hat Software Collections repositories before you start the installation of the Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;enabling-the-red-hat-software-collections-base-repository&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#enabling-the-red-hat-software-collections-base-repository&quot;&gt;&lt;/a&gt;Enabling the Red Hat Software Collections base repository&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The identifier for the repository is &lt;strong&gt;rhel-server-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Server and &lt;strong&gt;rhel-workstation-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Workstation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Server is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-server-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Workstation is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-workstation-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For more information, please refer to the &lt;a href=&quot;https://access.redhat.com/documentation/en/red-hat-software-collections/?version=2/&quot;&gt;Red Hat Software Collections&lt;/a&gt; documentation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;jboss-developer-studio-repository&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#jboss-developer-studio-repository&quot;&gt;&lt;/a&gt;JBoss Developer Studio repository&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As this is a tech preview, you need to manually configure the JBoss Developer Studio repository.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Create a file &lt;strong&gt;/etc/yum.repos.d/rh-eclipse46-devstudio.repo&lt;/strong&gt; with the following content:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;[rh-eclipse46-devstudio-stable-10.x]
+      name=rh-eclipse46-devstudio-stable-10.x
+      baseurl=https://devstudio.redhat.com/static/10.0/stable/rpms/x86_64/
+      enabled=1
+      gpgcheck=1
+      upgrade_requirements_on_install=1
+      metadata_expire=24h&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;red-hat-developer-signing-key&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#red-hat-developer-signing-key&quot;&gt;&lt;/a&gt;Red Hat developer signing key&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;As this is tech preview, you need to accept the Red Hat developer signing key that has been used for producing the JBoss Developer Studio RPM.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Execute the following command:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;sudo rpm --import &quot;https://www.redhat.com/security/a5787476.txt&quot;&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;install-red-hat-jboss-developer-studio&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#install-red-hat-jboss-developer-studio&quot;&gt;&lt;/a&gt;Install Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You’re now ready to install Red Hat JBoss Developer Studio through RPM.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enter the following command:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;listingblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre class=&quot;prettyprint highlight&quot;&gt;&lt;code&gt;sudo yum install rh-eclipse46-devstudio&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Answer &amp;amp;aposy&amp;amp;apos when asked and after all required dependencies have been downloaded and installed, Red Hat JBoss Developer Studio is available on your
+      system through the standard update channel !!!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You should see messages like the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;rh eclipse46 devstudio.log&quot; src=&quot;https://tools.jboss.org/blog/images/20161212-rpm/rh-eclipse46-devstudio.log.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;launch-red-hat-jboss-developer-studio&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#launch-red-hat-jboss-developer-studio&quot;&gt;&lt;/a&gt;Launch Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From the system menu, mouse over the &lt;strong&gt;Programming&lt;/strong&gt; menu, and the &lt;strong&gt;Red Hat Eclipse&lt;/strong&gt; menu item will appear.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;programming menu&quot; src=&quot;https://tools.jboss.org/blog/images/20161212-rpm/programming-menu.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Select this menu item and Red Hat JBoss Developer Studio user interface will appear then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;devstudio&quot; src=&quot;https://tools.jboss.org/blog/images/20161212-rpm/devstudio.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Thu, 15 Dec 2016 11:36:08 +0000</pubDate>
+</item>
+<item>
+	<title>PapyrusUML: A rover powered by me!</title>
+	<guid isPermaLink="false">http://papyrusuml.wordpress.com/?p=304</guid>
+	<link>https://papyrusuml.wordpress.com/2016/12/15/a-rover-powered-by-me/</link>
+	<description>&lt;p&gt;It appears that Nicolas, apparently a student at Queen’s University (in Kingston, Canada), has been using &lt;a href=&quot;https://www.eclipse.org/papyrus/&quot; target=&quot;_blank&quot;&gt;me&lt;/a&gt; and &lt;a href=&quot;https://eclipse.org/papyrus-rt/&quot;&gt;my real-time variant&lt;/a&gt; (which, by the ways, recently released a &lt;a href=&quot;https://papyrusuml.wordpress.com/2016/11/16/papyrus-rt-v-0-8-0/&quot;&gt;new version&lt;/a&gt; ) to drive a rover and do all sorts of neat stuff around it!&lt;/p&gt;
+&lt;p&gt;Check out some &lt;a href=&quot;https://www.youtube.com/channel/UCo6WIyLiZ3ea7yOn0VbPm5A&quot; target=&quot;_blank&quot;&gt;videos he’s made on YouTube&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;jetpack-video-wrapper&quot;&gt;&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;div class=&quot;jetpack-video-wrapper&quot;&gt;&lt;/div&gt;
+&lt;p&gt;Isn’t this impressive!!!&lt;/p&gt;
+&lt;p&gt;Thanks, Nicolas! I guess you can now say you’re a Papyrus minion!&lt;/p&gt;&lt;br /&gt;Filed under: &lt;a href=&quot;https://papyrusuml.wordpress.com/category/uncategorized/&quot;&gt;Uncategorized&lt;/a&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/papyrusuml.wordpress.com/304/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/papyrusuml.wordpress.com/304/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godelicious/papyrusuml.wordpress.com/304/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/delicious/papyrusuml.wordpress.com/304/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gofacebook/papyrusuml.wordpress.com/304/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/facebook/papyrusuml.wordpress.com/304/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gotwitter/papyrusuml.wordpress.com/304/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/twitter/papyrusuml.wordpress.com/304/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/gostumble/papyrusuml.wordpress.com/304/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/stumble/papyrusuml.wordpress.com/304/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/godigg/papyrusuml.wordpress.com/304/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/digg/papyrusuml.wordpress.com/304/&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.wordpress.com/1.0/goreddit/papyrusuml.wordpress.com/304/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/reddit/papyrusuml.wordpress.com/304/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=papyrusuml.wordpress.com&amp;amp;blog=72365150&amp;amp;post=304&amp;amp;subd=papyrusuml&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Thu, 15 Dec 2016 08:15:40 +0000</pubDate>
+</item>
+<item>
+	<title>Christian Pontesegger: Helpers: TableViewer Text Export</title>
+	<guid isPermaLink="false">tag:blogger.com,1999:blog-3460102793186140898.post-3099707462807205019</guid>
+	<link>http://codeandme.blogspot.com/2016/12/helpers-tableviewer-text-export.html</link>
+	<description>Today I would like to present a small helper class that exports the content of a TableViewer to a String representation.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;How to use&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;The &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/tools/com.codeandme.tools/src/com/codeandme/tools/ui/TableExporter.java&quot; target=&quot;_blank&quot;&gt;default implementation&lt;/a&gt; creates a &lt;a href=&quot;https://en.wikipedia.org/wiki/Comma-separated_values&quot; target=&quot;_blank&quot;&gt;CSV&lt;/a&gt; output. Exporting the table is simple:&lt;br /&gt;&lt;pre class=&quot;brush: java&quot;&gt;TableExporter exporter = new TableExporter(tableViewer);&lt;br /&gt;exporter.print(outputStream);&lt;br /&gt;&lt;br /&gt;// exporter.toString() // serializes into a String&lt;br /&gt;&lt;/pre&gt;The export uses sorting, filtering and column ordering so your output matches to what you see on the screen.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;Other output formats &lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;If you are interested in other output formats, have a look at &lt;a href=&quot;https://github.com/Pontesegger/codeandme/blob/master/tools/com.codeandme.tools/src/com/codeandme/tools/ui/HTMLTableExporter.java&quot; target=&quot;_blank&quot;&gt;HTMLTableExporter&lt;/a&gt;, which renders the same data into an HTML table. You can easily extend the base class to adapt the output format to your own needs.&lt;br /&gt;&lt;br /&gt;&lt;u&gt;&lt;b&gt;Examples&lt;/b&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-SwcNmcoww-s/WFJATQi9OSI/AAAAAAAAAuM/rLpyLy-TBOYeQWPkXOS3d4wHK8rSaRE_ACLcB/s1600/table_export.png&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-SwcNmcoww-s/WFJATQi9OSI/AAAAAAAAAuM/rLpyLy-TBOYeQWPkXOS3d4wHK8rSaRE_ACLcB/s1600/table_export.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;rendered as CSV text:&lt;br /&gt;&lt;br /&gt;&lt;pre class=&quot;brush: java&quot;&gt;First,Last,City&lt;br /&gt;Obi-Wan,Kenobi,Tatooine&lt;br /&gt;Leia,Organa,Alderaan&lt;br /&gt;Luke,Skywalker,Tatooine&lt;br /&gt;Han,Solo,Corellia&lt;/pre&gt;&lt;br /&gt;...or as HTML table&lt;br /&gt;&lt;br /&gt;&lt;table&gt; &lt;tbody&gt;&lt;tr&gt;  &lt;th&gt;First&lt;/th&gt;  &lt;th&gt;Last&lt;/th&gt;  &lt;th&gt;City&lt;/th&gt; &lt;/tr&gt;&lt;tr&gt;  &lt;td&gt;Obi-Wan&lt;/td&gt;  &lt;td&gt;Kenobi&lt;/td&gt;  &lt;td&gt;Tatooine&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;  &lt;td&gt;Leia&lt;/td&gt;  &lt;td&gt;Organa&lt;/td&gt;  &lt;td&gt;Alderaan&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;  &lt;td&gt;Luke&lt;/td&gt;  &lt;td&gt;Skywalker&lt;/td&gt;  &lt;td&gt;Tatooine&lt;/td&gt; &lt;/tr&gt;&lt;tr&gt;  &lt;td&gt;Han&lt;/td&gt;  &lt;td&gt;Solo&lt;/td&gt;  &lt;td&gt;Corellia&lt;/td&gt; &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description>
+	<pubDate>Thu, 15 Dec 2016 07:05:43 +0000</pubDate>
+	<author>noreply@blogger.com (Christian Pontesegger)</author>
+</item>
+<item>
+	<title>JBoss Tools Team: JBoss Tools and Red Hat Developer Studio for Eclipse Mars</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/ga-for-mars.html</guid>
+	<link>https://tools.jboss.org/blog/ga-for-mars.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html&quot;&gt;JBoss Tools 4.3&lt;/a&gt; and &lt;a href=&quot;https://tools.jboss.org/downloads/devstudio/mars/9.0.0.GA.html&quot;&gt;Red Hat JBoss Developer Studio 9&lt;/a&gt; for Eclipse Mars are now generally available!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;jbds9&quot; src=&quot;https://tools.jboss.org/blog/images/jbds9.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;admonitionblock caution&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-caution&quot; title=&quot;Caution&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      Java 8 is required for installing and using JBoss Tools. We still support developing and running applications using older Java runtimes. See more in &lt;a href=&quot;https://tools.jboss.org/blog/2015-06-23-beta1-for-mars.html#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment&quot;&gt;Beta1 blog&lt;/a&gt;.
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;installation&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#installation&quot;&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href=&quot;https://www.jboss.org/products/devstudio.html&quot;&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.5 (Mars) but we recommend
+      using the latest &lt;a href=&quot;http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsr&quot;&gt;Eclipse 4.5.1 Mars JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;literalblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/mars/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-new&quot;&gt;&lt;/a&gt;What is new ?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There are many new features and improvements. The full list of what is new you can find on &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html&quot;&gt;this page&lt;/a&gt;.
+      Hundreds of bugs have been fixed on JBoss Tools side but we also continue to work on making Eclipse better and contribute to many Eclipse projects: Web Tools, Docker, Maven Integration, JavaScript, Hybrid Mobile Tools and many others.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Let me highlight just a few major features in JBoss Tools 4.3 and JBoss Developer Studio 9.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;openshift-3&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#openshift-3&quot;&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;There is a new tooling available to help you with OpenShift 3 application development.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;new connection wizard&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/openshift/images/new-connection-wizard.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;OpenShift 3 tooling is provided as a TechPreview feature, available from the JBoss Central Software/Updates page.
+      We are working on improving OpenShift 3 tooling and it will be included in JBoss Developer Studio by default as a Supported feature in the upcoming months.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;docker&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#docker&quot;&gt;&lt;/a&gt;Docker&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Tooling for Docker is available in Eclipse Mars under the &lt;a href=&quot;http://eclipse.org/linuxtools&quot;&gt;Linux tools&lt;/a&gt;
+      umbrella. Despite this name, this works on all major developer platforms. It
+      is mirrored on &lt;a href=&quot;https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html&quot;&gt;JBoss Tools update site&lt;/a&gt;
+      and is also included in Developer Studio 9.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;docker explorer view&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/docker/images/docker_mars1/docker_explorer_view.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;batch&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#batch&quot;&gt;&lt;/a&gt;Batch&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Java EE 7 Batch Tools include an advanced Job XML editor, wizards, validation, navigation, and other features.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;diagram&quot; src=&quot;https://tools.jboss.org/documentation/whatsnew/batch/images/4.3.0.Beta1/diagram.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect2&quot;&gt;
+      &lt;h3 id=&quot;and-much-more&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#and-much-more&quot;&gt;&lt;/a&gt;And much more&lt;/h3&gt;
+      &lt;div class=&quot;ulist&quot;&gt;
+      &lt;ul&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#easier-import-of-projects&quot;&gt;Easier import&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Better &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#arquillian&quot;&gt;Arquillian&lt;/a&gt; support&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#aerogear&quot;&gt;Hybrid Mobile Tools&lt;/a&gt; improvements&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#cdi&quot;&gt;CDI 1.2&lt;/a&gt; support&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#javascript&quot;&gt;Bower&lt;/a&gt; tooling&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#javascript-editing-improvements&quot;&gt;JavaScript Editing&lt;/a&gt; improvements&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;New and improved &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#central&quot;&gt;JBoss Central&lt;/a&gt; page&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#content-assist-for-angular-expressions&quot;&gt;Content assist for Angular expressions&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#livereloa&quot;&gt;Quick access to launch LiveReload&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;News in &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#maven-repository-wizard&quot;&gt;Maven Repository Wizard&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#examples&quot;&gt;Offline support for Examples in JBoss Central&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;New &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#server&quot;&gt;WildFly 9&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#webservices&quot;&gt;Content assist for methods in websocket endpoint classes&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;..and &lt;a href=&quot;https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html&quot;&gt;others&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;where-is-integration-stack-tooling&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#where-is-integration-stack-tooling&quot;&gt;&lt;/a&gt;Where is integration stack tooling?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The integration stack covers the tooling for Fuse, Drools, jBPM, SwitchYard, JBoss ESB etc.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;They are available as &quot;Early access&quot; in JBoss Tools under JBoss Central Software/Update page.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In the near future it is planned to also show up in JBoss Developer Studio and eventually be available as fully supported.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;what-is-next&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#what-is-next&quot;&gt;&lt;/a&gt;What is Next&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Having JBoss Tools 4.3 and JBoss Developer Studio 9 out we are already working on the next maintenance release for Eclipse Mars. We are also working on Eclipse Neon adoption.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Alexey Kazakov&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 12 Dec 2016 22:16:17 +0000</pubDate>
+</item>
+<item>
+	<title>JBoss Tools Team: Eclipse for Docker has arrived on Mars</title>
+	<guid isPermaLink="true">https://tools.jboss.org/blog/eclipse-for-docker-has-arrived.html</guid>
+	<link>https://tools.jboss.org/blog/eclipse-for-docker-has-arrived.html</link>
+	<description>&lt;div&gt;&lt;div id=&quot;preamble&quot;&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Eclipse Mars has arrived, and with it comes a brand new Docker tooling for it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;admonitionblock note&quot;&gt;
+      &lt;table&gt;
+      &lt;tbody&gt;&lt;tr&gt;
+      &lt;td class=&quot;icon&quot;&gt;
+      &lt;i class=&quot;fa icon-note&quot; title=&quot;Note&quot;&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td class=&quot;content&quot;&gt;
+      This blog is a cross-post from
+      &lt;a href=&quot;http://www.eclipse.org/community/eclipse_newsletter/2015/june/&quot;&gt;Eclipse
+      Newsletter: Landed On MARS&lt;/a&gt; where you can read about more things
+      included in recent released Eclipse Mars.
+      &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;/tbody&gt;&lt;/table&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;goals&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#goals&quot;&gt;&lt;/a&gt;Goals&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We wanted to have a way to easily start/stop and deploy
+      Docker containers directly from Eclipse.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We wanted something that would run on all three major platforms:
+      Windows, Linux and OS X.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We wanted something that would work together with existing Docker
+      command line tools, but also utilized provide better overview and
+      easier/faster access to common operations, from a visual perspective.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;We wanted it to be released with Eclipse Mars.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;…​and that is what we got now.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This article runs through how to get it installed, the main features and what the future plans are.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;where-do-i-get-it&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#where-do-i-get-it&quot;&gt;&lt;/a&gt;Where do I get it ?&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;With Eclipse Mars released, you can get it from the Eclipse Mars
+      updatesite, the feature is named &lt;code&gt;Docker Tooling&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you want to try the latest greatest builds you can use &lt;code&gt;Linux Tools&lt;/code&gt;
+      project nightly builds update site at
+      &lt;code&gt;&lt;a class=&quot;bare&quot; href=&quot;http://download.eclipse.org/linuxtools/updates-docker-nightly/&quot;&gt;http://download.eclipse.org/linuxtools/updates-docker-nightly/&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To use the plugins, it is assumed that Docker is already installed.
+      You can see &lt;a href=&quot;https://docs.docker.com/installation/#installation&quot;&gt;Docker’s Installation guide&lt;/a&gt; on how
+      to do this on various platforms.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;views-and-perspectives&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#views-and-perspectives&quot;&gt;&lt;/a&gt;Views and Perspectives&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once you have installed the Docker tooling, you will get access to three new views:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;dlist&quot;&gt;
+      &lt;dl&gt;
+      &lt;dt class=&quot;hdlist1&quot;&gt;Docker Explorer &lt;/dt&gt;
+      &lt;dd&gt;
+      &lt;p&gt;a tree view listing all connected Docker instances, with image and containers.&lt;/p&gt;
+      &lt;/dd&gt;
+      &lt;dt class=&quot;hdlist1&quot;&gt;Docker Containers &lt;/dt&gt;
+      &lt;dd&gt;
+      &lt;p&gt;a table view listing containers for selected Docker connection&lt;/p&gt;
+      &lt;/dd&gt;
+      &lt;dt class=&quot;hdlist1&quot;&gt;Docker Images &lt;/dt&gt;
+      &lt;dd&gt;
+      &lt;p&gt;a table view listing images available in the selected Docker connection&lt;/p&gt;
+      &lt;/dd&gt;
+      &lt;/dl&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;The easiest way to get to see these are by opening the &lt;em&gt;Docker Tooling&lt;/em&gt; perspective.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Docker Tooling Perspective&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_tooling_perspective.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In the screen above, the Docker tooling are connected to a locally running Docker deamon named &lt;code&gt;boot2docker&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;connect&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#connect&quot;&gt;&lt;/a&gt;Connect&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To configure this you click the &lt;code&gt;Add Connection…​&lt;/code&gt; button in the &lt;code&gt;Docker Explorer&lt;/code&gt; view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;This will start a wizard that will try to detect your default Docker
+      connection setup, dependent on your operating system.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Add Connection Wizard&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/add_docker_connection.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In Linux it will use standard unix sockets and if on Windows or OSX, it will look for the following
+      environment variables: &lt;code&gt;DOCKER_HOST&lt;/code&gt;, &lt;code&gt;DOCKER_TLS_VERIFY&lt;/code&gt; and &lt;code&gt;DOCKER_CERT_PATH&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If neither of these are detectable, you can click &lt;code&gt;Use custom connection settings&lt;/code&gt; and provide the connection info.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When you have the connection working you can get started using Docker images.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;pull-individual-images&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#pull-individual-images&quot;&gt;&lt;/a&gt;Pull individual images&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To pull an image, you use the &lt;code&gt;Pull Image&lt;/code&gt; in the Docker Image view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Pull Image&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_pull_image.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Here, I’m simply pulling the &lt;a href=&quot;https://registry.hub.docker.com/u/jboss/wildfly/&quot;&gt;jboss/wildfly&lt;/a&gt; image, a image amongst many available at &lt;a class=&quot;bare&quot; href=&quot;http://hub.docker.com&quot;&gt;http://hub.docker.com&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;run&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#run&quot;&gt;&lt;/a&gt;Run&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To run the image, the easiest way is to right-click on the image in the Docker Explorer.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Run Image from Docker Explorer&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_explorer_run.png&quot; width=&quot;400&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Here, I’ve initially filtered the list to just show images matching &lt;code&gt;wildfly&lt;/code&gt; and then using right-click to choose the &lt;code&gt;Run Image…​&lt;/code&gt; action.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Docker Run&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_run_image.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;From within this dialog you can also search in Docker Hub for other images by clicking &lt;code&gt;Search…​&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Docker search&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrvied/docker_search.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In this example, I’m only going to focus on running using the defaults, but in the Run Image wizard you can also configure
+      ports, links, volumes, environment variables etc.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;By default, we enable interactive and tty mode to allow you to interact with the docker container in the console (i.e. if the image asks for input).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;When you click &lt;code&gt;Finish&lt;/code&gt;, the container will start and show output in a Console and the Docker Containers view will show which ports are used.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Console&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_run_console.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;In here, the port at 8080 (the web server) is mapped to 32768 on the docker daemon.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;To show this I just need to goto &lt;a class=&quot;bare&quot; href=&quot;http://dockerhost:32768&quot;&gt;http://dockerhost:32768&lt;/a&gt; to access it. &lt;code&gt;dockerhost&lt;/code&gt; is the IP of the docker daemon.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;Browse&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_browser.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;build&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#build&quot;&gt;&lt;/a&gt;Build&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you have a &lt;code&gt;Dockerfile&lt;/code&gt; you can build it via the &lt;code&gt;hammer&lt;/code&gt; icon on the Image view. This will start the Build wizard.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;docker build&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_build.png&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Once built, the image will show up and be possible to use for &lt;a href=&quot;http://tools.jboss.org/blog/news.atom#run&quot;&gt;running&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;properties&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#properties&quot;&gt;&lt;/a&gt;Properties&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;You can view properties for all the various parts: connection, image and container, including getting a tree view of what &lt;code&gt;docker inspect&lt;/code&gt; would show.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;imageblock&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+      &lt;img alt=&quot;docker properties&quot; src=&quot;http://tools.jboss.org/blog/images/dockerarrived/docker_properties.png&quot; width=&quot;300&quot; /&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;sect1&quot;&gt;
+      &lt;h2 id=&quot;future&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;http://tools.jboss.org/blog/news.atom#future&quot;&gt;&lt;/a&gt;Future&lt;/h2&gt;
+      &lt;div class=&quot;sectionbody&quot;&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For Eclipse Mars we added all of the above base features and you can use it in your day-to-day work with Docker.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;For Eclipse Mars SR1, we will work on getting some of the rough edges fixed, like &amp;amp;aposRun&amp;amp;apos and &amp;amp;aposBuild&amp;amp;apos should be available in the context menu and not only in the views menu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Work also started in Eclipse CDT to support using Docker images to build binaries for an OS other than the one you are running on.
+      The vision for this would allow running on Windows or Mac, but target native deployment on multiple various Linux architectures.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Furthermore in &lt;a href=&quot;https://tools.jboss.org&quot;&gt;JBoss Tools&lt;/a&gt; we are working on better integrating Docker with Eclipse server adapters, to ease deployment of your web applications to a Docker container. You can see how server deployment works with the current Docker tooling by leveraging &lt;a href=&quot;https://tools.jboss.org/blog/2015-03-02-getting-started-with-docker-and-wildfly.html&quot;&gt;docker volumes&lt;/a&gt; and &lt;a href=&quot;https://tools.jboss.org/blog/2015-03-03-docker-and-wildfly-2.html&quot;&gt;remote deployment&lt;/a&gt; support.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;If you have suggestions or find bugs, please open these in the &lt;a href=&quot;https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Linux%20Tools&quot;&gt;Linux Tools project under Docker&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Have fun!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;paragraph&quot;&gt;
+      &lt;p&gt;Max Rydahl Andersen&lt;br /&gt;
+      &lt;a href=&quot;http://twitter.com/maxandersen&quot;&gt;@maxandersen&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;</description>
+	<pubDate>Mon, 12 Dec 2016 22:16:17 +0000</pubDate>
+</item>
+<item>
+	<title>Roland Grunberg: Hot-Code Replace With The Breakpoint Properties Page in Eclipse</title>
+	<guid isPermaLink="false">http://rgrunber.wordpress.com/?p=900</guid>
+	<link>https://rgrunber.wordpress.com/2016/12/09/hot-code-replace-with-the-breakpoint-properties-page-in-eclipse/</link>
+	<description>&lt;p&gt;This is a convenient exploitation of how the Breakpoint Properties Page works.&lt;/p&gt;
+&lt;p&gt;A lot of people are aware of hot-code replacement functionality in the Eclipse JDT (Java Development Tools). This allows one to modify source code while an application is being debugged and have the generated class files be used in the current runtime.&lt;/p&gt;
+&lt;p&gt;This is great but in the past I have run into issues where this functionality, for some reason fails. This also depends on having editable source files, which doesn’t seem like such a big deal, except that it’s very possible to have source artifacts (fetched by Maven) or source bundles (in the PDE Target Platform) that show up as class files and can’t be (immediately) edited.&lt;/p&gt;
+&lt;p&gt;So what should you do when you’d like to do a hot-code replace on a class for which you have read-only sources ?&lt;/p&gt;
+&lt;p&gt;Enter the JDT Breakpoint Properties Page. Generally, this page is meant to help set the conditions on which a breakpoint causes the thread to suspend. For example, you may have some kind of loop that iterates through many values, but only want to investigate what happens on a particular value. Rather than setting a breakpoint in the loop, seeing it suspend on the line, checking the value, hitting resume, over and over until you get the desired value, you could set a condition to suspend when your value is set.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;eclipse-breakpoint-properties&quot; class=&quot;alignnone wp-image-902 size-full&quot; src=&quot;https://rgrunber.files.wordpress.com/2016/12/eclipse-breakpoint-properties.png?w=500&quot; style=&quot;border: 0 solid #000000;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;So the suspend can be triggered on some condition that will be evaluated prior to executing the line. But there’s nothing stopping us from making the “condition” a code snippet that always returns “false”. The result is a breakpoint that never causes a suspend, but still evaluates the entire code snippet.&lt;/p&gt;
+&lt;p&gt;One of the simplest things for which this can be used is to insert “printf” statements without actually having to litter them throughout your codebase. Much easier to track and clean :&lt;/p&gt;
+&lt;pre class=&quot;brush: java; title: ; notranslate&quot;&gt;System.out.println(&quot;...&quot;);
+return false;
+&lt;/pre&gt;
+&lt;p&gt;With this simple pattern, we can basically emulate something like the &lt;a href=&quot;https://wiki.eclipse.org/CDT/User/NewIn84#Dynamic-printf&quot; target=&quot;_blank&quot;&gt;CDT’s dynamic printfs&lt;/a&gt; .Of course, since this merely inserts code there are some limitations to what can be done versus an actual hot-code replace, but this comes pretty close.&lt;/p&gt;&lt;br /&gt;  &lt;a href=&quot;http://feeds.wordpress.com/1.0/gocomments/rgrunber.wordpress.com/900/&quot; rel=&quot;nofollow&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; src=&quot;http://feeds.wordpress.com/1.0/comments/rgrunber.wordpress.com/900/&quot; /&gt;&lt;/a&gt; &lt;img alt=&quot;&quot; border=&quot;0&quot; height=&quot;1&quot; src=&quot;https://pixel.wp.com/b.gif?host=rgrunber.wordpress.com&amp;amp;blog=34993704&amp;amp;post=900&amp;amp;subd=rgrunber&amp;amp;ref=&amp;amp;feed=1&quot; width=&quot;1&quot; /&gt;</description>
+	<pubDate>Fri, 09 Dec 2016 20:53:18 +0000</pubDate>
+</item>
+<item>
+	<title>Mikael Barbero: RFPs for new Friends of Eclipse Enhancement Program (FEEP) projects posted</title>
+	<guid isPermaLink="true">https://mikael-barbero.tumblr.com/post/154241861340</guid>
+	<link>https://mikael-barbero.tumblr.com/post/154241861340</link>
+	<description>&lt;p&gt;The Eclipse Foundation is actively seeking bids on &lt;b&gt;10 new &lt;a href=&quot;https://eclipse.org/contribute/dev_program.php&quot;&gt;FEEP&lt;/a&gt; Development Efforts&lt;/b&gt;, along with 5 outstanding Development Efforts that have not yet been bid. The objective is to have this work completed in the 1st quarter of 2017.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Please see the &lt;a href=&quot;https://projects.eclipse.org/development-efforts&quot;&gt;list of development efforts&lt;/a&gt;, and &lt;b&gt;submit your bids before December 23, 2016&lt;/b&gt;. See the &lt;a href=&quot;https://eclipse.org/contribute/dev_program/faq.php&quot;&gt;FAQ for the bidding process&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;This list has been crafted based on the feedbacks of the Eclipse PMC and the Eclipse Architecture council members. It also gathered some of the most wanted bugs on the bugzilla (i.e. the bugs with the highest number of votes).&lt;/p&gt;&lt;p&gt;As a reminder, the &lt;a href=&quot;https://eclipse.org/contribute/dev_program.php&quot;&gt;FEEP program&lt;/a&gt; uses the funds donated to the Eclipse Foundation to make direct improvements and enhancements to the Eclipse IDE/Platform.&lt;/p&gt;</description>
+	<pubDate>Fri, 09 Dec 2016 10:38:03 +0000</pubDate>
+</item>
+
+</channel>
+</rss>

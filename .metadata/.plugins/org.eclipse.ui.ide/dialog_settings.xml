@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/Users/apple/Documents/workspace/django_program"/>
+	</list>
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1482294512136" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="424" key="DIALOG_X_ORIGIN"/>
+		<item value="229" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

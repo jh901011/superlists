@@ -1,0 +1,12 @@
+#-*- coding:utf-8 -*-
+
+from selenium import webdriver
+# browser = webdriver.Firefox()
+# browser.get('http://localhost:8000')
+# assert 'Django' in browser.title
+#  
+
+firefox_capabilities = DesiredCapabilities.FIREFOX
+firefox_capabilities['marionette'] = True
+firefox_capabilities['binary'] = '/usr/bin/firefox'
+browser = webdriver.Firefox(capabilities=firefox_capabilities)
